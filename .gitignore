@@ -13,7 +13,7 @@ stacktrace.log
 /target/
 /.idea
 /out/
-/web-app/plugins
-/web-app/WEB-INF/classes
+/web-app/plugins/
+/web-app/WEB-INF/classes/
 /.link_to_grails_plugins/
 /target-eclipse/
