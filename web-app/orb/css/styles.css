@@ -1921,12 +1921,12 @@ a.list-group-item-warning:focus { border-color: #f0ad4e }
 }
 
 .navbar-brand {
-	width: 200px;
-	color: #555;
-	font-weight: 900;
-	text-transform: uppercase;
-	font-size: 35px;
-	letter-spacing: -3px;
+	width: 210px;
+	float: left;
+	height: 50px;
+	padding: 4px 5px;
+	font-size: 18px;
+	line-height: 20px
 }
 
 .navbar-brand a { color: #555 }

@@ -7,10 +7,11 @@
     <meta name="description"
           content="ORB - Powerfull and Massive Admin Dashboard Template with tonns of useful features">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ORB</title>
+    <title>SSI Storage Solutions Inc.</title>
     <link href="${request.contextPath}/orb/css/styles.css" rel="stylesheet" type="text/css">
 
-    <link rel="shortcut icon" type="image/x-icon" href="${request.contextPath}/orb/favicon.ico"/>
+
+    <link rel="shortcut icon" type="image/x-icon" href="${resource(dir: 'images', file: 'STORAGE.png')}"/>
     <script type="text/javascript" src="${request.contextPath}/orb/js/vendors/modernizr/modernizr.custom.js"></script>
 </head>
 
@@ -19,8 +20,9 @@
 <!--Smooth Scroll-->
 <div class="smooth-overflow">
     <!--Navigation-->
-    <nav class="main-header clearfix" role="navigation"><a class="navbar-brand" href="index.html"><span
-            class="text-blue">ORB</span></a>
+    <nav class="main-header clearfix" role="navigation">
+    <a class="navbar-brand" href="index.html">
+        <span class="text-blue"><img src="${resource(dir:'images', file: 'ssistorage.png')}" alt="" height="40" width="200"></span></a>
 
         <!--Search-->
         <div class="site-search">
