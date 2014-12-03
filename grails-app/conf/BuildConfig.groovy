@@ -45,6 +45,7 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
         mavenRepo 'http://repo.spring.io/milestone'
+        mavenRepo "http://repo.grails.org/grails/core"
     }
 
     dependencies {
@@ -63,13 +64,16 @@ grails.project.dependency.resolution = {
         compile ':cache:1.1.8'
         compile ":asset-pipeline:1.9.9"
         compile ":spring-security-core:2.0-RC4"
-        compile ":jqgrid:3.8.0.1"
+
+        compile ":easygrid:1.6.6"
+        compile ":export:1.6"
+        compile ":jquery-ui:1.10.3"
 
         // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.6.1" // or ":hibernate:3.6.10.18"
         runtime ":database-migration:1.4.0"
         runtime ":jquery:1.11.1"
-
+        compile ":google-visualization:0.7"
         // Uncomment these to enable additional asset-pipeline capabilities
         //compile ":sass-asset-pipeline:1.9.0"
         //compile ":less-asset-pipeline:1.10.0"

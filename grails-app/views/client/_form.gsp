@@ -7,7 +7,7 @@
 		<g:message code="client.clientCode.label" default="Client Code" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="clientCode" required="" value="${clientInstance?.clientCode}"/>
+	<g:textField class="form-horizontal" name="clientCode" required="" value="${clientInstance?.clientCode}"/>
 
 </div>
 
@@ -16,7 +16,7 @@
 		<g:message code="client.clientName.label" default="Client Name" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="clientName" required="" value="${clientInstance?.clientName}"/>
+	<g:textField class="form-horizontal" name="clientName" required="" value="${clientInstance?.clientName}"/>
 
 </div>
 
